@@ -6,6 +6,7 @@ import React, { useState } from "react";
 // import Item from './components/Item';
 import Column from "./components/Column";
 import { DragDropContext } from "react-beautiful-dnd";
+import CustomizedSwitches from "./components/Switch";
 
 function App() {
   const [list, setList] = useState([
@@ -36,6 +37,7 @@ function App() {
     <>
       <div className='App'>
         <h1>Abigail Dorso</h1>
+        <CustomizedSwitches />
         <a href={"https://github.com/abbydorso"}>
           <img src={github} height={"40px"} width={"auto"} />
         </a>
